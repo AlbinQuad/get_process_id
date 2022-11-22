@@ -13,6 +13,7 @@ Example task
     ${process_id}    Get Process Id
     ${process_list}    List All Process Ids
     Log    ${process_id}
+    Log    ${process_list}
     Example Keyword
     Example Python Keyword
     Log    ${TODAY}
